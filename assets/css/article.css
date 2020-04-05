@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+}
+
+.article--title{
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+}
+
+.article--date{
+    width: 200px;
+    height: 50px;
+}
+
+.article--text{
+    padding: 25px;
+    width: 400px;
+    height: 300px;
+}

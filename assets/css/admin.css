@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.articles--table{
+    margin: 50px auto;
+    width: 70vw;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.employees--table{
+    margin: 50px auto;
+    width: 70vw;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.add{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #fec223;
+}
