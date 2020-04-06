@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: block;
+    text-align: center;
+}
+
+.label{
+
+}
+
+.article{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article--title{
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+}
+
+.article--date{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+}
+
+.article--text{
+    margin: 0 auto;
+    padding: 25px;
+    width: 400px;
+    height: 300px;
+}
+
+.employee{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.employee--name, .employee--position, .employee--avatar{
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.btn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #fec223;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}

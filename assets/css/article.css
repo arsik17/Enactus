@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section--blog{
+    display: flex;
+    justify-content: center;
+    background-color: #fec223;
+}
+
+.blog--header{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    margin: 100px auto;
+    font-size: 100px;
+}
+
+.article{
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    color: #1f1f1f;
+    background-color: white;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.date{
+    font-size: 20px;
+}
